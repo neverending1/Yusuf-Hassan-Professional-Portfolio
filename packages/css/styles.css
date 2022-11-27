@@ -350,6 +350,7 @@ img {
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
+
 /*==================== PROJECT IN MIND ====================*/
 .project {
   text-align: center;
