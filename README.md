@@ -1,4 +1,4 @@
-## Challenge 2
+## Yusuf Hassan Professional Portfolio
 
 Hello, my name is Yusuf Hassan, and I'm building towards becoming a web developer. This portfolio serves as a showcase for my current applications and proof of my skills.
 
