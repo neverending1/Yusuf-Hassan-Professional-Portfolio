@@ -148,7 +148,7 @@ img {
   bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 
 /*==================== NAV ====================*/
@@ -162,12 +162,12 @@ img {
 
 .nav__logo,
 .nav__toggle {
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: var(--font-medium);
 }
 
 .nav__logo:hover {
-  color: white;
+  color: rgb(255, 17, 76);
 }
 
 .nav__toggle {
@@ -176,7 +176,7 @@ img {
 }
 
 .nav__toggle:hover {
-  color: white;
+  color: rgb(255, 17, 76);
 }
 
 @media screen and (max-width: 767px) {
@@ -197,17 +197,18 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
+
 .nav__link {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: var(--small-font-size);
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: var(--font-medium);
 }
 
 .nav__link:hover {
-  color: white;
+  color: rgb(255, 17, 76);
 }
 
 .nav__icon {
@@ -220,11 +221,11 @@ img {
   bottom: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .nav__close:hover {
-  color: white;
+  color: rgb(255, 17, 76);
 }
 
 /* show menu */
@@ -234,7 +235,7 @@ img {
 
 /* Active link */
 .active-link {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 /* Change background header */
@@ -246,12 +247,17 @@ img {
 
 .button {
   display: inline-block;
-  background-color: black;
-  color: #ffff;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
 }
+
+.button:hover{
+  background-color: rgb(255, 17, 76);
+}
+
 .button__icon {
   font-size: 1.2rem;
   margin-left: var(--mb-0-5);
@@ -259,9 +265,14 @@ img {
 }
 
 .button--white {
-  background-color: #fff;
+  background-color: rgb(255, 17, 76);
   color: var(--first-color);
 }
+
+.button--white:hover{
+  background-color: rgb(255, 17, 76);
+}
+
 .button--flex {
   display: inline-flex;
   align-items: center;
@@ -286,9 +297,9 @@ img {
 /*==================== ABOUT ====================*/
 .about__img {
   width: 200px;
-  border-radius: 0.5rem;
   justify-self: center;
   align-items: center;
+  border: 5px solid rgb(255, 17, 76);
 }
 
 .about__description {
@@ -314,27 +325,24 @@ img {
 .portfolio__img1 {
   width: 400px;
   height: 300px;
-  border-radius: 2rem;
   justify-self: left;
-  border: 1px solid #555;
+  border: 1px solid rgb(0, 0, 0);
   margin-bottom: 10px;
 }
 
 .portfolio__img2 {
   width: 300px;
   height: 300px;
-  border-radius: 2rem;
   justify-self: center;
-  border: 1px solid #555;
+  border: 1px solid rgb(0, 0, 0);
   margin-bottom: 10px;
 }
 
 .portfolio__img3{
   width: 300px;
   height: 300px;
-  border-radius: 2rem;
   justify-self: center;
-  border: 1px solid #555;
+  border: 1px solid rgb(0, 0, 0);
   margin-top: 10px;
 }
 
@@ -350,35 +358,6 @@ img {
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
-
-/*==================== PROJECT IN MIND ====================*/
-.project {
-  text-align: center;
-}
-
-.project__bg {
-  background-color: var(--first-color-second);
-  padding-top: 3rem;
-}
-
-.project__title {
-  font-size: var(--h2-font-size);
-  margin-bottom: var(--mb-0-75);
-}
-
-.project__description {
-  margin-bottom: var(--mb-1-5);
-}
-
-.project__title,
-.project__description {
-  color: #fff;
-}
-
-.project__img {
-  width: 232px;
-  justify-self: center;
-}
 /*==================== CONTACT ME ====================*/
 .contact__container {
   row-gap: 3rem;
@@ -391,7 +370,7 @@ img {
 
 .contact__icon {
   font-size: 1.5rem;
-  color: black;
+  color: rgb(255, 17, 76);
   margin-right: var(--mb-0-75);
 }
 
@@ -457,7 +436,7 @@ img {
 }
 
 .footer__link:hover {
-  color:white;
+  color:rgb(255, 17, 76);
 }
 
 .footer__social {
@@ -466,7 +445,7 @@ img {
 }
 
 .footer__social:hover {
-  color: white;
+  color: rgb(255, 17, 76);
 }
 
 .footer__copy {
@@ -491,7 +470,7 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: rgb(255, 17, 76);
   border-radius: 0.5rem;
 }
 
