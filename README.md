@@ -4,7 +4,7 @@ Hello, my name is Yusuf Hassan, and I'm building towards becoming a web develope
 
 ## Screenshot
 
-![Yusuf Hassan Portfolio](./packages/images/Screenshot%202022-11-27%20at%2018.27.21.png)
+![Yusuf Hassan Portfolio](./packages/images/screenshot.png)
 
 ## Deployed site
 https://neverending1.github.io/Yusuf-Hassan-Professional-Portfolio/
